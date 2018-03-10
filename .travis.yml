@@ -40,4 +40,4 @@ script:
   - ./gradlew :app:createDebugAndroidTestCoverageReport --info --stacktrace
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)  -t e6fae1e5-9e7e-447c-8680-93acea8ba36c
